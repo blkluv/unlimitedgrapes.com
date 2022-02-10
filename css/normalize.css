@@ -353,3 +353,63 @@ td,
 th {
   padding: 0;
 }
+
+/* FAQ COLLAPSE/EXPAND STYLES */
+* {
+  box-sizing: border-box;
+}
+.faqanswer {
+	display: none;
+	width: 100%;
+	padding: 12px 20px 0 0px;	
+}
+
+.faqanswer p {
+	font-size: 23px;
+}
+
+a.active {
+	font-weight: bold;
+}
+
+.togglefaq {
+	text-decoration: none;
+	color: white;
+	font-size: 23px;
+	padding: 10px 0px;
+	display: block;
+	border-bottom: 2px solid #d0d0d0;
+	width: 100%;
+	margin-bottom: -1px;
+  background-color: transparent;
+  font-weight:800;
+  margin-top: 5%;
+  text-align: left;
+}
+.icon-plus {
+	color: #5ec4cd;
+	margin-right: 20px;
+	font-size: 20px;
+	float:right;
+}
+
+.icon-minus {
+	color: #5ec4cd;
+	margin-right: 20px;
+	font-size: 20px;
+	float:right;
+}
+p {
+  margin: 0;
+  padding-bottom: 20px;
+}
+
+.faq-block {
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+}
+
+.faq-block p{
+  line-height: 25px;
+}
