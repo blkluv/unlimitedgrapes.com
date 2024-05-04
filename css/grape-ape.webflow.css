@@ -391,6 +391,13 @@ li {
   margin-bottom: 100px;
   text-align: center;
 }
+.grape-access-header {
+  margin-bottom: 0;
+}
+
+.pitch {
+  margin-top: -20px;
+}
 
 .bg-circle-gradient-1 {
   position: absolute;
