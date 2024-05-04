@@ -399,6 +399,16 @@ li {
   margin-top: -20px;
 }
 
+@media (min-width: 992px) {
+  .grape-access-header {
+    margin-bottom: -20px;
+  }
+
+  .pitch {
+    margin-top: 0;
+  }
+}
+
 .bg-circle-gradient-1 {
   position: absolute;
   top: -20%;
