@@ -261,8 +261,8 @@ li {
 }
 
 .id {
-  max-width: 1024px;
-  max-height: 1024px;
+  max-width: 512px;
+  max-height: 512px;
 }
 
 .nav-menu {
