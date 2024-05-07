@@ -957,6 +957,22 @@ li {
   margin-bottom: 14px;
 }
 
+@media screen and (max-width: 767px) {
+  .community-grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .grape-community-container {
+    margin: 0 auto;
+  }
+
+  .discord-widget {
+    margin: 0 auto;
+  }
+}
+
 @media screen and (max-width: 991px) {
   h2 {
     font-size: 48px;
