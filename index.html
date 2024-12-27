@@ -1,101 +1,105 @@
-<!DOCTYPE html><!--  This site was created in Webflow. http://www.webflow.com  -->
+<!DOCTYPE html>
+<!--  This site was created in Webflow. http://www.webflow.com  -->
 <!--  Last Published: Sun Jul 11 2021 08:32:48 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="60b0230e5fa08455d9f06085" data-wf-site="60b0230e5fa0847b66f06084">
+
 <head>
   <meta charset="utf-8">
   <title>LUV NFT SOCIAL MEDIA</title>
   <meta name="description" content="LUV NFT SOCIAL MEDIA - LUV NFT Tokenopoly is a real-life, Web5 Monopoly-inspired game with a mission to educate players on how D-commerce.">
-	<!-- Facebook Meta Tags -->
-<meta property="og:url" content="https://luvnft.com">
-<meta property="og:type" content="website">
-<meta property="og:title" content="LUV NFT SOCIAL MEDIA">
-<meta property="og:description" content="LUV NFT SOCIAL MEDIA
-"Dcommerce is the next-gen Ecommerce—no website, no shipping, no reviews, no emails, and zero middleman fees. All you need is a LUV NFT, airdropped straight to your wallet (that only you control). Simple, secure, and totally yours.">
-<meta property="og:image" content="https://blkluv.org/wp-content/uploads/2022/01/unnamed-5.jpg">
+  <!-- Facebook Meta Tags -->
+  <meta property="og:url" content="https://luvnft.com">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="LUV NFT SOCIAL MEDIA">
+  <meta property="og:description" content="Dcommerce is the next-gen Ecommerce—no website, no shipping, no reviews, no emails, and zero middleman fees. All you need is a LUV NFT, airdropped straight to your wallet (that only you control). Simple, secure, and totally yours.">
+  <meta property="og:image" content="https://blkluv.org/wp-content/uploads/2022/01/unnamed-5.jpg">
 
-<!-- Twitter Meta Tags -->
-<meta name="twitter:card" content="summary_large_image">
-<meta property="twitter:domain" content="luvnft">
-<meta property="twitter:url" content="https://luvnft.com">
-<meta name="twitter:title" content="LUV NFT SOCIAL MEDIA">
-<meta name="twitter:description" content="LUV NFT SOCIAL MEDIA
-"Dcommerce is the next-gen Ecommerce—no website, no shipping, no reviews, no emails, and zero middleman fees. All you need is a LUV NFT, airdropped straight to your wallet (that only you control). Simple, secure, and totally yours.">
-<meta name="twitter:image" content="https://blkluv.org/wp-content/uploads/2022/01/unnamed-5.jpg">
+  <!-- Twitter Meta Tags -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta property="twitter:domain" content="luvnft">
+  <meta property="twitter:url" content="https://luvnft.com">
+  <meta name="twitter:title" content="LUV NFT SOCIAL MEDIA">
+  <meta name="twitter:description" content="Dcommerce is the next-gen Ecommerce—no website, no shipping, no reviews, no emails, and zero middleman fees. All you need is a LUV NFT, airdropped straight to your wallet (that only you control). Simple, secure, and totally yours.">
+  <meta name="twitter:image" content="https://blkluv.org/wp-content/uploads/2022/01/unnamed-5.jpg">
+
   <meta content="width=device-width, initial-scale=1" name="viewport">
   <meta content="Webflow" name="generator">
   <link href="css/normalize.css" rel="stylesheet" type="text/css">
   <link href="css/webflow.css" rel="stylesheet" type="text/css">
   <link href="css/grape-ape.webflow.css" rel="stylesheet" type="text/css">
   <!-- [if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" type="text/javascript"></script><![endif] -->
-  <script type="text/javascript">!function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);</script>
+  <script type="text/javascript">
+    !function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);
+  </script>
   <link href="images/favicon.png" rel="shortcut icon" type="image/x-icon">
   <link href="images/webclip.png" rel="apple-touch-icon" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css">
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js"></script>
   <style type="text/css">
-	html, body {
-    max-width: 100%;
-    overflow-x: hidden;
-	}
-  path {
-    stroke: whitesmoke;
-    stroke-width: 2px;
-    cursor: pointer;     
-    transition: fill 250ms;
-  }
-  path:hover {
-    fill: #1E1835;
-  }
-  text {
-    font-size: .99em;
-    text-transform: uppercase;
-    letter-spacing: .5px;
-    font-family: "Archivo Black";
-  }
-  polyline {
-    fill: none;
-    stroke: grey;
-    stroke-width: 1px;
-    stroke-dasharray : 5px;
-  }
-  	.chart-wrapper {
-  	max-width: 1140px;
-    width: 100%;
-    height: 100%;
-    position: absolute;
-  }
-	.chart-graph {
-  	transform: translate(50%, 30%);
-  }
-  @media screen and (max-width: 767px) {
-  	.chart-graph {
-      transform: translate(52%, 30%) scale(0.8, 0.8);
+    html, body {
+      max-width: 100%;
+      overflow-x: hidden;
     }
-  }
-  @media screen and (max-width: 650px) {
-  	.chart-graph {
-    	transform: translate(53%, 25%) scale(0.7, 0.7);
+    path {
+      stroke: whitesmoke;
+      stroke-width: 2px;
+      cursor: pointer;     
+      transition: fill 250ms;
     }
-  }
-  @media screen and (max-width: 520px) {
-  	.chart-graph {
-    	transform: translate(54%, 20%) scale(0.6, 0.6);
+    path:hover {
+      fill: #1E1835;
     }
-  }
-  @media screen and (max-width: 479px) {
-  	.chart-graph {
-    	transform: translate(53%, 20%) scale(0.55, 0.55);
+    text {
+      font-size: .99em;
+      text-transform: uppercase;
+      letter-spacing: .5px;
+      font-family: "Archivo Black";
     }
-  }
-</style>
+    polyline {
+      fill: none;
+      stroke: grey;
+      stroke-width: 1px;
+      stroke-dasharray : 5px;
+    }
+    .chart-wrapper {
+      max-width: 1140px;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+    }
+    .chart-graph {
+      transform: translate(50%, 30%);
+    }
+    @media screen and (max-width: 767px) {
+      .chart-graph {
+        transform: translate(52%, 30%) scale(0.8, 0.8);
+      }
+    }
+    @media screen and (max-width: 650px) {
+      .chart-graph {
+        transform: translate(53%, 25%) scale(0.7, 0.7);
+      }
+    }
+    @media screen and (max-width: 520px) {
+      .chart-graph {
+        transform: translate(54%, 20%) scale(0.6, 0.6);
+      }
+    }
+    @media screen and (max-width: 479px) {
+      .chart-graph {
+        transform: translate(53%, 20%) scale(0.55, 0.55);
+      }
+    }
+  </style>
 </head>
+
 <body class="body">
   <div data-collapse="medium" data-animation="default" data-duration="400" role="banner" class="navbar w-nav">
     <div class="container nav w-container">
       <a href="https://luvnft.com" class="w-nav-brand"><img src="images/tokenopoly.png" loading="lazy" alt="LUV NFT logo" class="logo"></a>
       <nav role="navigation" class="nav-menu w-nav-menu">
         <a href="https://discord.com/servers/luv-nft-910051231437819914" class="nav-link w-nav-link">NFTV</a>
-        <a href="https://discord.com/servers/healxyz-1165931081564946443 " class="nav-link w-nav-link">HEALXYZ</a>
+        <a href="https://discord.com/servers/healxyz-1165931081564946443" class="nav-link w-nav-link">HEALXYZ</a>
         <a href="https://discord.com/servers/cre-1163344441436819497" class="nav-link w-nav-link">CRE CLUB</a>
         <a href="https://discord.com/servers/hair-1188100125705375806" class="nav-link w-nav-link">HAIR</a>
         <div class="launch-wrapper">
@@ -105,244 +109,53 @@
       <div class="menu-button w-nav-button">
         <div class="menu-icon w-icon-nav-menu"></div>
       </div>
-      <div></div>
     </div>
   </div>
-  <section data-poster-url="videos/grape_bgvid-poster-00001.jpg" data-video-urls="videos/grape_bgvid-transcode.mp4,videos/grape_bgvid-transcode.webm" data-autoplay="true" data-loop="true" data-wf-ignore="true" class="section hero w-background-video w-background-video-atom"><video autoplay="" loop="" style="background-image:url(&quot;videos/grape_bgvid-poster-00001.jpg&quot;)" muted="" playsinline="" data-wf-ignore="true" data-object-fit="cover">
+  <section data-poster-url="videos/grape_bgvid-poster-00001.jpg" data-video-urls="videos/grape_bgvid-transcode.mp4,videos/grape_bgvid-transcode.webm" data-autoplay="true" data-loop="true" data-wf-ignore="true" class="section hero w-background-video w-background-video-atom">
+    <video autoplay loop style="background-image:url(&quot;videos/grape_bgvid-poster-00001.jpg&quot;)" muted playsinline data-wf-ignore="true" data-object-fit="cover">
       <source src="videos/grape_bgvid-transcode.mp4" data-wf-ignore="true">
       <source src="videos/grape_bgvid-transcode.webm" data-wf-ignore="true">
     </video>
     <div class="container hero">
       <div class="hero-div">
         <h1 class="hero-heading"><span data-w-id="f61cebd1-d94c-15d5-428d-b13ce0870a04" style="opacity:0" class="hero-connecting">LUV</span> <span data-w-id="f61cebd1-d94c-15d5-428d-b13ce0870a07" style="opacity:0" class="hero-decentralized">NFT</span> <span data-w-id="f61cebd1-d94c-15d5-428d-b13ce0870a0a" style="opacity:0" class="hero-communities">SOCIAL MEDIA</span></h1>
-        <h2 data-w-id="f61cebd1-d94c-15d5-428d-b13ce0870a0c" style="opacity:0" class="secondary-heading">Dcommerce is the next-gen Ecommerce—no website, no shipping, no reviews, no emails, and zero middleman fees. All you need is a LUV NFT, airdropped straight to your wallet (that only you control). Simple, secure, and totally yours.
-        </h2>
-      </div>
-    </div>
-  </section>
-  <div class="section grape">
-    <div class="container center">
-      <div data-w-id="875b3a81-c81d-7d96-b291-6acf6643293a" style="opacity:0;-webkit-transform:translate3d(0px, 0px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);-moz-transform:translate3d(0px, 0px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);-ms-transform:translate3d(0px, 0px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);transform:translate3d(0px, 0px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0)" class="bg-circle-gradient-1"></div>
-      <div class="community-grid">
-  
-        <div data-w-id="41d39d7b-f4fa-ac5a-1f81-2d84b6df34ae" style="opacity:0" class="grape-community-container">
-          <h2 class="community-heading">😂 FUN. 📈</h2>
-          <div class="grape-community-text">
-            FUN is the NFT social media platform meets play-to-earn game! 🎮✨ Here, every piece of content is tokenized and 100% owned by its creators—aka the Tribe—as LUV NFTs. Every FUN<br>
-            moment is a unique, sellable LUV NFT. Level up and earn points for showing your tribe social love to unlock free LUV NFTs you can flip, stake or borrow against as a digital asset.🎉🚀<br>
-            <br>
-          </div>
-          <a href="https://fun.luvnft.com" class="button mt-40 w-button"><b>😂 FUN.</b><span class="icon carrot-right-icon">▶️</span></a>
-        </div>
-        
-        <div class="community-numbets-container">
-          <div data-w-id="8006384f-a5fb-e908-faa5-5e3c7320f000" style="opacity:0" class="discord w-embed w-iframe">
-            <style>
-              .discord-widget {
-                width: 300px;
-                height: 400px;
-              }
-              @media screen and (max-width: 767px) {
-                .discord-widget {
-                  width: 280px;
-                  height: 360px;
-                }
-              }
-              @media screen and (max-width: 479px) {
-                .discord-widget {
-                  width: 240px;
-                  height: 300px;
-                }
-              }
-            </style>
-            <a href="https://fun.luvnft.com" class="w-nav-brand"><img src="images/LUV_NFT_FUN.jpg" loading="lazy" alt="LUV NFT id" class="id"></a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="section grape-access">
-    <h2 class="mb-15 grape-access-header" style="text-align: center;">👻 PHANTOM 🪙 </h2>
-    <div class="container center">
-      <div class="grape-community-text">
-        The Wizard of Hahz ended creator economy slavery—time to claim your freedom! Create a new Phantom wallet username so you can start receiving LOVE Money on LIVE, FUN., XO., or in the comments<br>
-        of any LUV NFT socials or Web5 platforms. Just drop a 👻 @username and let the LOVE flow. Download a Phantom wallet and create a username used on FUN.LUVNFT<br>
-      </div>
-      <a href="https://phantom.com/" class="button mt-40 w-button"><b>👻 PHANTOM</b><span class="icon carrot-right-icon">▶️</span></a>
-    </div>
-    <div style="display: flex; justify-content: center; margin-top: 40px;">
-      <div style="position: relative; padding-top: 56.25%; width: 100%; max-width: 560px;">
-        <iframe 
-          src="https://www.youtube.com/embed/OP5yioHTd_U" 
-          frameborder="0" 
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-          allowfullscreen 
-          style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
-      </div>
-    </div>    
-  </div>
-  <div class="section hackthon">
-    <div class="container center">
-        <div data-w-id="b58dc1e8-c5f6-d23f-807c-f273b32eb261" style="opacity:0;-webkit-transform:translate3d(0px, 0px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);-moz-transform:translate3d(0px, 0px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);-ms-transform:translate3d(0px, 0px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);transform:translate3d(0px, 0px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0)" class="bg-circle-gradient-3"></div>
-      </div>
-      <div data-w-id="6887018f-625b-8d44-01b5-51c838eeb130" style="opacity:0" class="hackathon-header">
-        <h2 class="mb-20"><center>🎦 LIVE 💼</center></h2>
-        <div class="hackathon-text"><center>Live is your exclusive LUV NFT clubhouse! 🌟 The ultimate space for fresh drops and for fans to catch their fav influencers live. 🎥💖 You can sell LUV NFTs to your customers, fans, or subscribers, and promote your own Live sessions on LUV NFT socials as a service. 🚀 Want in? Just hold their LUV NFT, and you’re in the inner circle. 🤝
-        </center></div>
-        <a href="https://live.luvnft.com" class="button mt-40 w-button"><b>▶️ LIVE</b><span class="icon carrot-right-icon">play_arrow</span></a>
-        <div data-w-id="ba0f7c45-392f-87a8-5b55-6eafe33fd236" style="opacity:0;-webkit-transform:translate3d(0px, 0px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);-moz-transform:translate3d(0px, 0px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);-ms-transform:translate3d(0px, 0px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);transform:translate3d(0px, 0px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0)" class="bg-circle-gradient-2"></div>
-      </div>
-    </div>
-  </div>
-  <section id="features" class="section features">
-    <h2 data-w-id="d8074669-33a1-aa9d-5c38-4c53efdbf36c" style="opacity:0" class="mb-220 text-center">IN LUV WE TRUST</h2>
-    <div class="container">
-      <div class="w-layout-grid features-grid">
-        <div id="w-node-a6af4ef7-3ac0-1a54-7bf1-9b820b147d04-d9f06085" data-w-id="a6af4ef7-3ac0-1a54-7bf1-9b820b147d04" style="opacity:0" class="features-card">
-          <div class="features-card-content-wrapper"><img src="images/Element_1.png" loading="lazy" alt="Link social accounts image" class="features-image">
-            <h3 class="feature-title">🏦 UNBANK 🚷</h3>
-            <ul role="list" class="features-card-list w-list-unstyled">
-              <li class="mb-20">Become a LUV NFT bank by learning how to mint and sell Love Cash Money 
-                <a href="https://unisat.io/brc20/HAI$"><span class="Unisat"><b>💈HAI$ for hair</b></span></a> 
-                <a href="https://unisat.io/brc20/$RNT"><span class="Unisat"><b>🏠 $RNT for rentals</b></span></a> 
-                <a href="https://unisat.io/brc20/$CBO"><span class="Unisat"><b>💼 $CBO for Services</b></span></a> 
-                <a href="https://unisat.io/brc20/$MILE"><span class="Unisat"><b>😂 $MILE</b></span></a> 
-                <a href="https://unisat.io/brc20/TRVL$"><span class="Unisat"><b>🏩 TRVL$ for travel</b></span></a> 
-                <a href="https://unisat.io/brc20/MU$IK"><span class="Unisat"><b>🎙️MU$IK for musik</b></span></a> 
-                <a href="https://unisat.io/brc20/BGOLF"><span class="Unisat"><b>🥏 BGOLF for Bdisc</b></span></a> 
-                to earn Bitcoin and build your 💰 Bag. Earn your first LUV NFT by showing social proof of minting Love Cash Money. HODLers 💰 bag can be verified in the NFTV Discord.</li>
-              <a href="https://unisat.io/download" class="button mt-40 w-button"><b>🏦 WALLET</b><span class="icon carrot-right-icon">▶️</span></a>
-            </ul>
-          </div>
-        </div>
-        <div id="w-node-_442d2486-df89-da3e-43eb-28167c807c66-d9f06085" data-w-id="442d2486-df89-da3e-43eb-28167c807c66" style="opacity:0" class="features-card">
-          <div class="features-card-content-wrapper"><img src="images/Element_2.png" loading="lazy" alt="Multi coin configurations image" class="features-image">
-            <h3 class="feature-title">📈 MARKET 💼</h3>
-            <ul role="list" class="features-card-list w-list-unstyled">
-              <li class="mb-20">LUV NFT is the Wall Street of tokenized social content. 🔥 Trending posts and HAHZtags get turned into LUV NFTsand set up as live events. 🚀 In 2024, NFTs went wild with $8.5B in sales 💸—and the biggest flex? A jaw-dropping $50M sale for a single digital image. 😱 Ready to dive into the new digital economy? 🌐</li>
-              <a href="https://fun.luvnft.com/shop" class="button mt-40 w-button"><b>😂 FUN.</b><span class="icon carrot-right-icon">▶️</span></a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div id="w-node-_621cd584-e952-8e81-1e12-f71993c45c0e-d9f06085" data-w-id="621cd584-e952-8e81-1e12-f71993c45c0e" style="opacity:0" class="features-card">
-          <div class="features-card-content-wrapper"><img src="images/Element_3.png" loading="lazy" alt="Community DAO image" class="features-image">
-            <h3 class="feature-title">📍 LNE ✨</h3>
-            <ul role="list" class="features-card-list w-list-unstyled">
-              <li class="mb-20">An LNE is a blockchain real estate digital asset tied to a 1-of-1 unique 3-word physical address from the W3W (What3Words)app (like ///keep.it.simple). 🌍 For just $20, snag the LNE airdrop service, drop your W3W address at checkout, and get an LUV NFT LNE airdropped directly to your Phantom wallet. 🪂💎</li>
-              <a href=" " class="button mt-40 w-button"><b>SERVICE ▶️</b><span class="icon carrot-right-icon">play_arrow</span></a>
-            </ul>
-          </div>
-        </div>
-        <div id="w-node-a3304a0f-56e3-3666-95d7-302c55091b50-d9f06085" data-w-id="a3304a0f-56e3-3666-95d7-302c55091b50" style="opacity:0" class="features-card">
-          <div class="features-card-content-wrapper"><img src="images/Element_5.png" loading="lazy" alt="Restore community image" class="features-image">
-            <h3 class="feature-title">🔑 CONTRACT 💵 </h3>
-            <ul role="list" class="features-card-list w-list-unstyled">
-              <li class="mb-20">Blockchain smart contracts are the new-age legal agreements. When someone buys your LUV NFT, they unlock your product or service, verified during a scheduled LIVE event. 🛠️✨ Every tokenized LUV NFT transaction is transparent and verifiable on the blockchain. LUV NFT writes custom contracts as a service. ✅
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div id="w-node-fda3d574-5176-7f9c-bd6e-c437aab5d6f1-d9f06085" data-w-id="fda3d574-5176-7f9c-bd6e-c437aab5d6f1" style="opacity:0" class="features-card">
-          <div class="features-card-content-wrapper"><img src="images/Element_4.png" loading="lazy" alt="User and server stats image" class="features-image">
-            <h3 class="feature-title">🃏 CONTENT #️⃣</h3>
-            <ul role="list" class="features-card-list w-list-unstyled">
-              <li class="mb-20">All LUV NFT FUN content is tokenized across Bitcoin, Cardano, Solana, Ethereum, Telegram, and Polygon, featuring HAHZtags and HAHZ LOVE memecoin. 💖 It's a Web5 way to show love with money in an on-chain game. 🕹️ Tribes who spread the most LOVE each month get rewarded big! 🌟
-                <a href="https://fun.luvnft.com" class="button mt-40 w-button"><b>😂 FUN.</b><span class="icon carrot-right-icon">▶️</span></a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div id="w-node-fddf9fca-70af-5158-5a17-e95a678ba6e5-d9f06085" data-w-id="fddf9fca-70af-5158-5a17-e95a678ba6e5" style="opacity:0" class="features-card">
-          <div class="features-card-content-wrapper"><img src="images/Element_6.png" loading="lazy" alt="Moderator free membership adjustment" class="features-image">
-            <h3 class="feature-title">💜 HAHZ LOVE 💬</h3>
-            <ul role="list" class="features-card-list w-list-unstyled">
-              <li class="mb-20"> We replaced social media likes driven by ego with HAHZ LOVE, a memecoin used in a trickle-up economy game where we show each other love on-chain. This ensures that we never hit rock-bottom levels of fear and hate again.
-                <a href="https://pump.fun/coin/7iNzESXq8Ln3wyww5hgLM1G2NKKkmzczk1bv2tARpump" class="button mt-40 w-button"><b>🎮 HODL LOVE</b><span class="icon carrot-right-icon">▶️</span></a>
-            </ul>
-          </div>
-        </div>
+        <h2 data-w-id="f61cebd1-d94c-15d5-428d-b13ce0870a0c" style="opacity:0" class="secondary-heading">Dcommerce is the next-gen Ecommerce—no website, no shipping, no reviews, no emails, and zero middleman fees. All you need is a LUV NFT, airdropped straight to your wallet (that only you control). Simple, secure, and totally yours.</h2>
       </div>
     </div>
   </section>
 
-  <section id="minting" class="section" style="min-height: 0 !important">
-    <div class="container mint" style="text-align: center;">
-      <h2 class="mb-60 text-center">👇🏼 CLICK ON-CHAIN 🔗</h2>
-	    <img src="./images/blue.png" alt="Roadmap" width="30%" style="margin-top: 3%;"/>
-      <br>
-      <a href="https://fun.luvnft.com/"><img src="./images/MINT_BUTTON_MAIN.png" alt="Roadmap" width="30%" style="margin-top: 3%;"/></a>
+  <div class="about">
+    <div class="container about-container">
+      <div class="about-heading">
+        <h2 class="section-title">❤️‍🔥 LUV NFT</h2>
+        <p class="about-paragraph">Blockchain + e-commerce <b><span class="highlight">LUV</span></b> NFT Social Media for businesses and creators who wish to transform digital marketing using LUV tokenopoly.</p>
+        <p class="about-paragraph">❤️‍🔥 Join the revolution and earn LUV NFT tokens. Explore our platform and be part of the future. Explore your options below 👇.</p>
+      </div>
+      <ul role="list" class="about-list">
+        <li class="about-list-item">📈 <b>MARKET</b> 💼 – Tokenopoly rewards for creators & businesses.
+        </li>
+        <li class="about-list-item">💡 <b>LEARN</b> 🧠 – Free resources & community lessons.
+        </li>
+        <li class="about-list-item">👨‍💻 <b>CREATE</b> 💪– Free tutorials to get started making NFTs.
+        </li>
+        <li class="about-list-item">🤖 <b>TOOLS</b> 🛠– Easy-to-use tools to maximize your earnings.
+        </li>
+      </ul>
     </div>
-  </section>
-  <section id="faq" class="section">
-    <div class="container" style="text-align: center;">
-      <h2 class="mb-60 text-center">🤔 FAQ ❔</h2>
-    </div>
-    <div class="faq-block">
-      <div>
-        <button class="togglefaq">HOW DO I START?<i class="icon-plus" style="float: right;">+</i></button>
-        <div class="faqanswer">
-          <p>
-            1️⃣ Read the LUV NFT <a href="https://pitch.com/v/luv-nft-qhmqjg"><b>pitch deck</b><br>
-            2️⃣ Join the<a href="https://fun.luvnft.com"><b>FUN.</b>
-          </p>
-        </div>
-      </div>
-      <div>
-        <button class="togglefaq">WHICH WALLET DO I USE FOR MY D-COMMERCE LUV NFTS?<i class="icon-plus" style="float: right;">+</i></button>
-        <div class="faqanswer">
-          <p> Download the <a href="https://pitch.com/v/luv-nft-qhmqjg"><b>Phantom.app </b> wallet. Need help? Read <a href="https://market.luvnft.com/aaf9f93776c742ab85eefea49871b1e6?v=59d592e75d13443b83ea9c5eee1c17fc&p=eb3e5c2192bc4104a055a99df6792070&pm=c"><b>this and a Cardano wallet to start. </b></p>
-        </div>
-      </div>
-      <div>
-        <button class="togglefaq">HOW DO I SPEND MY LOVE MONEY TO PROMOTE MY LUV NFTS?<i class="icon-plus" style="float: right;">+</i></button>
-        <div class="faqanswer">
-          <p>DM @HAHZNFT in Discord to create a LUV NFT promo campaign once you subscribe</p>
-        </div>
-      </div>
-      <div>
-        <button class="togglefaq">HOW DO I GET PAID 33% OF MY PPV DISCORD INVITES?<i class="icon-plus" style="float: right;">+</i></button>
-        <div class="faqanswer">
-          <p>Once you subscribe you can create invite links for your tribe to subscribe to Web5 Discord, you receive 33% of their subscription tier, paid 
-            out the following month.
-          </p>
-        </div>
-      </div>
-      <div>
-        <button class="togglefaq">HOW DOES WEB5 COMMISSION WORK?<i class="icon-plus" style="float: right;">+</i></button>
-        <div class="faqanswer">
-          <p>
-            The highest paid commission of 10% comes from selling tokenized Bitcoin LNEs. Everyone that you invite to a Web5
-            Discord allows you to earn 10% commission in Bitcoin $RNT from their first LUV NFT purchase within 12 hours of the sale.
-            Example sell Jay-Z's Bitcoin NFT on sale of 3 Bitcoin (Roughly 120K USD 5/6/24) mapped to his L.A home and you earn 10k USD
-            in Bitcoin $RNT. 
-          </p>
-        </div>
-      </div>
-      <div>
-        <button class="togglefaq">HOW CAN I CREATE A QUEST L$VE FOR MY TRIBE?<i class="icon-plus" style="float: right;">+</i></button>
-        <div class="faqanswer">
-          <p>DM @HAHZNFT to create a Quest L$VE with your Love Money budget to scale your Web5 purpose.</a> 
-          
-          </p>
-        </div>
-      </div>
-      <div>
-        <button class="togglefaq">HOW DOES A PLAYER EARN 100% FROM SELLING AN LNE?<i class="icon-plus" style="float: right;">+</i></button>
-        <div class="faqanswer">
-          <p>
-            Once you own an LNE, you can sell it to anyone in a Web5 Market channel and earn 100% of the proceeds. The payout currency for LNEs 
-            includes 🟪 $MATIC, 🟦 $ETH, ⬛️ $SOL, 🟧 $BTC, $RNT, and SATS.</a>.
-          </p>
-        </div>
+  </div>
+
+  <div class="footer">
+    <div class="container footer-container">
+      <div class="footer-links">
+        <a href="https://luvnft.com" class="footer-link">Home</a>
+        <a href="https://luvnft.com" class="footer-link">About</a>
+        <a href="https://luvnft.com" class="footer-link">Market</a>
+        <a href="https://luvnft.com" class="footer-link">Get Started</a>
       </div>
     </div>
-  </section>
-  <div class="footer-section">
-    <div class="container footer">
-      <div class="leftgrid">
-        <div class="text-block"><span class="great-ape">LUV NFT</span><br>Powered by ⚡️ Bitcoin ⚡️ Cardano ⚡️ Ethereum ⚡️ Solana ⚡️ Polygon <br><span class="copyright"></span> 2024 LUV NFT<br>‍</div>
-      </div>
+  </div>
+</body>
+</html>
       <div id="w-node-bb247140-920a-bbc0-09be-352db5d2000b-d9f06085" class="right-grid">
         <!-- Existing Icons -->
         <a href="https://x.com/luvnft" target="_blank" class="social-icon"></a>
